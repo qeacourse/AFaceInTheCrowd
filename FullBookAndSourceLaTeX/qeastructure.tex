@@ -1,0 +1,262 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% eBook
+% Structural Definitions File
+% Version 1.0 (29/12/14)
+%
+% Created by:
+% Vel (vel@latextemplates.com)
+% 
+% This file has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------
+%	REQUIRED PACKAGES
+%----------------------------------------
+\usepackage{titlesec}
+\usepackage{import}
+\usepackage{amsmath,bm}
+\usepackage{siunitx}
+\usepackage[skins,breakable]{tcolorbox}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[osf]{libertine} % Use the Libertine font
+\usepackage{microtype} % Improves character and word spacing
+\usepackage{tikz} % Required for drawing custom shapes
+\definecolor[named]{color01}{rgb}{.2,.4,.6} % Color used in the title page
+\usepackage{wallpaper} % Required for setting background images (title page)
+\usepackage[autolinebreaks,useliterate]{mcode}
+
+\usepackage[unicode=true,bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,breaklinks=false,pdfborder={0 0 1},backref=section,colorlinks=true]{hyperref} % PDF meta-information specification
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=red,
+}
+\usepackage{caption}
+\usepackage{hypcap}
+
+%----------------------------------------
+%	PAPER, MARGIN AND HEADER/FOOTER SIZES
+%----------------------------------------
+
+\setstocksize{3.75in}{6.67in}
+%\setlrmarginsandblock{0.5in}{0.5in}{*} % Left/right margins
+%\setulmarginsandblock{24pt}{0.5in}{*} % Top/bottom margins
+
+%\setstocksize{12cm}{15cm}
+%\setstocksize{9.4cm}{12.5cm} % Paper size
+%\setstocksize{9cm}{14.25cm} % Paper size
+%\setstocksize{5in}{7.5in}
+%\setstocksize{8.5in}{11in}
+
+\settrimmedsize{\stockheight}{\stockwidth}{*} % No trims
+\setlrmarginsandblock{18pt}{18pt}{*} % Left/right margins
+\setulmarginsandblock{30pt}{36pt}{*} % Top/bottom margins
+\setheadfoot{14pt}{12pt} % Header/footer height
+\setheaderspaces{*}{8pt}{*} % Extra header space
+
+%----------------------------------------
+%	FOOTNOTE CUSTOMIZATION
+%----------------------------------------
+
+\renewcommand{\foottextfont}{\itshape\footnotesize} % Font settings for footnotes
+\setlength{\footmarkwidth}{-.1em} % Space between the footnote number and the text
+\setlength{\footmarksep}{.1em} % Space between multiple footnotes on the same page
+\renewcommand*{\footnoterule}{} % Remove the rule above the first footnote
+\setlength{\skip\footins}{1\onelineskip} % Space between the body text and the footnote
+
+%----------------------------------------
+%	HEADER AND FOOTER FORMATS
+%----------------------------------------
+
+\makepagestyle{mio} % Define a new custom page style
+\setlength{\headwidth}{\textwidth} % Header the same width as the text
+\makeheadrule{mio}{\textwidth}{0.1mm} % Header rule height
+\makeoddhead{mio}{\scriptsize{\theauthor\hskip.2cm\vrule\hskip.2cm\itshape{\thetitle}}}{}{} % Header specification
+\makeoddfoot{mio}{}{\scriptsize {\thepage \quad \vrule \quad \thelastpage}}{} % Footer specification
+\makeoddfoot{plain}{}{\footnotesize {\thepage \quad \vrule \quad \thelastpage}}{} % Pages of chapters
+\pagestyle{mio} % Set the page style to the custom style defined above
+
+%---------------------------------------
+%	PART FORMAT
+%---------------------------------------
+\renewcommand{\partname}{Module}
+\renewcommand{\partnamefont}{\centering\sffamily\itshape\Huge} % Part name font specification
+\renewcommand{\partnumfont}{\sffamily\Huge} % Part number font specification
+\renewcommand{\parttitlefont}{\centering\sffamily\scshape} % Part title font specification
+\renewcommand{\beforepartskip}{\null\vskip.118\textheight} % Whitespace above the part heading
+
+%--------------------------------------
+%	CHAPTER FORMAT
+%--------------------------------------
+
+\makechapterstyle{Tufte}{ % Define a new chapter style
+\renewcommand{\chapterheadstart}{\vskip1.0 \onelineskip} % Whitespace before the chapter starts
+\renewcommand{\printchaptername}{\large\itshape\chaptername} % "Chapter" text font specification
+\renewcommand{\printchapternum}{\LARGE\thechapter \\} % Chapter number font specification
+\renewcommand{\afterchapternum}{} % Space between the chapter number and text
+\renewcommand{\printchaptertitle}[1]{ % Chapter title font specification
+\raggedright
+\itshape\LARGE{##1}}
+\renewcommand{\afterchaptertitle}{\vskip1.0 \onelineskip}
+}
+\chapterstyle{Tufte} % Set the chapter style to the custom style defined above
+
+%--------------------------------------
+%	SECTION FORMAT
+%--------------------------------------
+
+\setsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\Large} % Section title font specification
+\setbeforesecskip{-.6\onelineskip} % Whitespace before the section
+\setaftersecskip{.3\onelineskip} % Whitespace after the section
+\newcommand{\sectionbreak}{\clearpage}
+%--------------------------------------
+%	SUBSECTION FORMAT
+%--------------------------------------
+
+\setsubsecheadstyle{\sethangfrom{\noindent  ##1}\raggedright\sffamily\large\itshape} % Subsection title font specification
+\setbeforesubsecskip{-.5\onelineskip} % Whitespace before the subsection
+\setaftersubsecskip{.2\onelineskip} % Whitespace after the subsection
+\newcommand{\subsectionbreak}{\clearpage}
+%--------------------------------------
+%	SUBSUBSECTION FORMAT
+%--------------------------------------
+
+\setsubsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape} % Subsubsection title font specification
+\setbeforesubsubsecskip{-.5\onelineskip} % Whitespace before the subsubsection
+\setaftersubsubsecskip{.1\onelineskip} % Whitespace after the subsubsection
+
+%--------------------------------------
+%	CAPTION FORMAT
+%--------------------------------------
+
+\captiontitlefont{\itshape\footnotesize} % Caption font specification
+\captionnamefont{\footnotesize} % "Caption" text font specification
+
+%--------------------------------------
+%	QUOTATION ENVIRONMENT FORMAT
+%--------------------------------------
+
+\renewenvironment{quotation}
+{\par\leftskip=1em\vskip.5\onelineskip\em}
+{\par\vskip.5\onelineskip}
+
+%--------------------------------------
+%	QUOTE ENVIRONMENT FORMAT
+%--------------------------------------
+
+\renewenvironment{quote}
+{\list{}{\em\leftmargin=1em}\item[]}{\endlist\relax}
+
+%--------------------------------------
+%	EXERCISES AND SOLUTIONS ENVIRONMENT FORMAT
+%--------------------------------------
+
+\usepackage[lastexercise]{exercise} % load the exercise package, and let the solutions refer to the previous exercise
+
+\numberwithin{Exercise}{chapter} % include the chapter number in the exercise
+\numberwithin{Answer}{chapter} % include the chapter number in the answer
+
+\usepackage{verbatim, ifthen}
+
+\renewcommand{\ExerciseName}{Exercise} % Use Exercise as the name
+\renewcommand{\AnswerName}{Solution} % Use Solution as the name
+
+\renewcommand{\ExerciseHeader}{\centerline{ \large\textbf{\ExerciseName~\ExerciseHeaderNB} \smallskip}} % Control how it looks
+
+\renewcommand{\AnswerHeader}{\centerline{ \large\textbf{\AnswerName~\ExerciseHeaderNB}
+\smallskip}} % Control how it looks
+
+% the Solution environment
+\newenvironment{sol}
+        {\ifthenelse{\isundefined{\showsolutions}}
+                    {\expandafter\comment}
+                   {\begin{tcolorbox}[enhanced jigsaw, breakable]\begin{Answer}}
+                    }
+         {\ifthenelse{\isundefined{\showsolutions}}
+                    {\expandafter\endcomment}
+                    {\end{Answer}\end{tcolorbox}\newpage}
+          }
+
+% the Exercise environment
+\newenvironment{prob}
+        {\ifthenelse{\isundefined{\showexercises}}
+                    {\newpage\expandafter\comment}
+                    {\newpage\begin{tcolorbox}[enhanced jigsaw, breakable]\begin{Exercise}}
+                    }
+         {\ifthenelse{\isundefined{\showexercises}}
+                    {\expandafter\endcomment}
+                    {\end{Exercise}\end{tcolorbox}\newpage}
+          }
+          
+% instructor notes environment
+\newenvironment{ournotes}
+        {\ifthenelse{\isundefined{\shownotes}}
+                    {\expandafter\comment} {\begin{tcolorbox}[enhanced,borderline ={4pt}{-2pt}{red!90!black}, colframe=red!95!black]\textbf{Instructors' Notes:}}
+                    }
+         {\ifthenelse{\isundefined{\showexercises}}
+                    {\expandafter\endcomment}
+                    {\end{tcolorbox}}
+          }
+
+
+%--------------------------------------
+%	MISCELLANEOUS DOCUMENT SPECIFICATIONS
+%--------------------------------------
+
+\setlength{\parindent}{1em} % Paragraph indentation
+
+\midsloppy % Fewer overfull lines - used in the memoir class and allows a setting somewhere between \fussy and \sloppy
+
+\checkandfixthelayout % Tell memoir to implement the above
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+
+\newcommand{\twobytwo}[4]{\ensuremath{\begin{bmatrix} #1 & #2 \\ #3 & #4\end{bmatrix}}}
+\newcommand{\threebythree}[9]{\ensuremath{\begin{bmatrix} #1 & #2 & #3 \\ #4 & #5 & #6 \\ #7 & #8 & #9 \end{bmatrix}}}
+\newcommand{\threebytwo}[6]{\ensuremath{\begin{bmatrix} #1 & #2  \\ #3 & #4  \\ #5 & #6  \end{bmatrix}}}
+
+\newcommand{\onebytwo}[2]{\ensuremath{\begin{bmatrix} #1 & #2 \end{bmatrix}}}
+\newcommand{\onebythree}[3]{\ensuremath{\begin{bmatrix} #1 & #2 & #3 \end{bmatrix}}}
+
+\newcommand{\twobyone}[2]{\ensuremath{\begin{bmatrix} #1 \\ #2 \end{bmatrix}}}
+\newcommand{\threebyone}[3]{\ensuremath{\begin{bmatrix} #1 \\ #2 \\ #3 \end{bmatrix}}}
+
+\newcommand{\fourbyone}[4]{\ensuremath{\begin{bmatrix} #1 \\ #2 \\ #3 \\ #4 \end{bmatrix}}}
+
+\newcommand{\That}{\hat{\mathbf{T}}}
+\newcommand{\T}{\mathbf{T}}
+\newcommand{\Nhat}{\hat{\mathbf{N}}}
+\newcommand{\R}{\mathbf{R}}
+\newcommand{\A}{\mathbf{A}}
+\renewcommand{\L}{\mathbf{L}}
+\newcommand{\M}{\mathbf{M}}
+\newcommand{\Bhat}{\hat{\mathbf{B}}}
+\renewcommand{\C}{\mathbf{C}}
+\renewcommand{\S}{\mathbf{S}}
+\renewcommand{\v}{\mathbf{v}}
+\renewcommand{\t}{\mathbf{t}}
+\renewcommand{\u}{\mathbf{u}}
+\renewcommand{\r}{\mathbf{r}}
+\renewcommand{\a}{\mathbf{a}}
+\newcommand{\e}{\mathbf{e}}
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\y}{\mathbf{y}}
+\newcommand{\ihat}{\hat{\textbf{\i}}}
+\newcommand{\jhat}{\hat{\textbf{\j}}}
+\newcommand{\khat}{\hat{\mathbf{k}}}
+\newcommand{\f}{\mathbf{f}}
+\newcommand{\Om}{\bm{\omega}}
+\newcommand{\Lagr}{\mathcal{L}}

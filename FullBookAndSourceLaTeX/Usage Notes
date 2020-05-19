@@ -1,0 +1,61 @@
+Some notes about using this Overleaf realization of the QEA "book"
+
+1. The main file that controls the overall book is "QEA1Spring2020.tex". 
+
+2. Each assignment is a chapter in the overall book. They are contained within individual folders in the project. You can see these folders to the left. Each chapter is a .tex files, for example "FacesDay1.tex". 
+
+3. Each chapter must be added to the book using an \include{foldername/filename} in the "QEA1Spring2020.tex" file. For example, \include{FacesDay1/FacesDay1}.
+
+4. You can select to compile only certain chapters using \includeonly{foldername/filename}. For example, \include{FacesDay1/FacesDay1}
+
+5. You can select between compiling in landscape or portrait. In the preamble of "QEA1Spring2020.tex", choose either "qeastructure.tex" for landscape, or "qeastructure_book.tex" for portrait.
+
+6. You can toggle the solutions on or off by commenting \newcommand{\showsolutions} in "QEA1Spring2020.tex". 
+
+7. Within a chapter, you can create an exercise using: 
+
+\begin{prob}
+ exercise text
+\end{prob}
+
+8. Similarly, you can create a solution using:
+
+\begin{sol}
+ solution text
+\end{sol}
+
+9. To generate a list of learning objectives that are set off in a box do the following:
+
+\begin{learningobjectives}
+\emph{Concepts}
+\bi
+\item State learning objective for concepts...
+\ei
+\emph{MATLAB skills}
+\bi
+\item State objective for skills...
+\ei
+\end{learningobjectives}
+
+10. From John Geddes, 
+I’ve include the “todonotes” environment so make it easier to keep track of what we need to do and where it is.
+
+The syntax is as follows:
+\todo[inline]{John needs a haircut before classes start}
+and you place this as close to the location that needs changing as possible.
+
+I’ve also include the “todolist” in the pre-chapter - it shows you which page it is on, and you can click on it and be taken directly to that point.
+
+
+***** Most of the documents we copy over from previous years will need editing to account for the new exercise and solution environments********
+
+Ongoing list of tips as I remember them:
+
+a. The "newthought" command does not work. Using \paragraph is an ok substitute
+
+2. If you want to place a figure inside a \prob{} or \sol{} environment, use a float like this:
+
+\begin{center}
+\includegraphics[width=2.5 in]{FacesDay1/figs/ConceptBreakdown.pdf}
+\captionof{figure}{If you were trying to break down special relativity, a \emph{portion} of your breakdown might look like this...}
+\end{center}
