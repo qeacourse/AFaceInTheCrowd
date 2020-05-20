@@ -14,20 +14,20 @@ feature_row:
     btn_label: "More details about QEA"
     btn_class: "btn--primary"
 
-feature_row_robot:
+feature_row_computational_platform:
   - image_path: How to/Pictures/neato_overview.jpeg
     alt: "A picture of a Neato robotic vacuum cleaner with a custom remote control interface based on Raspberry Pi"
     excerpt: "The documentation describes both how to connect to the the physical robot or a simulator and how to build your own customized Neato.
 
-    ### Student Facing Documentation\n * TODO
+    ### Sample MATLAB Code\n
     * [Sample Code](Sample_code/sample_code)\n
 
     ### Teaching Team Documentation\n
-    * TODO"
+    * [How to run the Photo Booth](How to/photo_booth)"
 
 feature_row_linalg_basics:
-  - image_path: website_graphics/bridge_of_death.jpg
-    alt: "A student taking a cell phone picture of a robot traversing a spiral wooden track called The Bridge of Doom"
+  - image_path: website_graphics/RGBArrayWithSlice.png
+    alt: "A schematic of the representation of a red, green, and blue image as a matrix"
     excerpt: "
    TODO\n
 
@@ -41,8 +41,8 @@ feature_row_linalg_basics:
 * [Night 3: Linear Systems of Algebraic Equations](Chapters/M1_Night3.pdf)\n"
 
 feature_row_eigenthings_and_applications_of_linalg:
-  - image_path: website_graphics/gauntlet.png
-    alt: "A Neato robot amidst an obstacle course called The Gauntlet"
+  - image_path: website_graphics/covariancedirections.png
+    alt: "A 3D scatter plot showing the relationship between the temperature in 3 cities along with the principal directions of variance shown as vectos."
     excerpt: "TODO
 
     ### Schedule and Supporting Documents
@@ -55,8 +55,8 @@ feature_row_eigenthings_and_applications_of_linalg:
 * [Night 6: Eigenvalues and Eigenvectors](Chapters/M1_Night6.pdf)" 
 
 feature_matrix_decomposition_and_project:
-  - image_path: website_graphics/gauntlet.png
-    alt: "A Neato robot amidst an obstacle course called The Gauntlet"
+  - image_path: website_graphics/eigface1.jpg
+    alt: "An image of an Eigenface computed using principal components analysis"
     excerpt: "TODO
 
     ### Schedule and Supporting Documents
@@ -85,12 +85,15 @@ Quantitative Engineering Analysis (QEA) is an interdisciplinary, integrated, cou
  <iframe src="https://www.youtube.com/embed/MFL4gd2IMm8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
+## Supporting Documentation and Code
+
+{% include feature_row id="feature_row_computational_platform" type="left" %}
 
 ## Big Picture Framing and Linear Algebra Basics
 
 {% include feature_row id="feature_row_linalg_basics" type="right" %}
 
-## TODO title
+## Eigenthings and Applications of Linear Algebra
 
 {% include feature_row id="feature_row_eigenthings_and_applications_of_linalg" type="left" %}
 
