@@ -67,23 +67,24 @@ Quantitative Engineering Analysis (QEA) is an interdisciplinary, integrated, cou
 ### Schedule and Supporting Documents
 
 * [Day 1: Facial Recognition: The Big Picture](Chapters/M1_Day1.pdf)
-* Night 1:
-* Day 2: 
-* Night 2:
-* Day 3:
-* Night 3:
-* Day 4: 
-* Night 4:
-* Day 5:
-* Night 5:
-* Day 6:
-* Night 6:
-* Day 7:
-* Night 7:
-* Day 8:
-* Night 8:
-* Day 9:
-* Project: 
+* [Night 1: Introduction to Matrices](Chapters/M1_Night1.pdf) 
+* [Day 2: Matrix Transformations](Chapters/M1_Day2.pdf) 
+* [Night 2: Matrix Operations](Chapters/M1_Night2.pdf) 
+* [Day 3: Linear Independence, Span, Basis, and Decomposition](Chapters/M1_Day3.pdf) 
+* [Night 3: Linear Systems of Algebraic Equations](Chapters/M1_Night3.pdf) 
+* [Day 4: Linear Systems of Algebraic Equations](Chapters/M1_Day4.pdf) 
+* [Night 4: Facial Recognition, Image Manipulation and Decomposition](Chapters/M1_Night4.pdf) 
+* [Day 5: Linear Systems of Algebraic Equations, Brain data, and Context and Ethics](Chapters/M1_Day5.pdf) 
+* [Night 5: Correlation](Chapters/M1_Night5.pdf) 
+* [Day 6: AI Discussion, Smile Detection and Eigenthings](Chapters/M1_Day6.pdf) 
+* [Night 6: Eigenvalues and Eigenvectors](Chapters/M1_Night6.pdf) 
+* [Day 7: Eigenvalue Decomposition and Principal Components Analysis](Chapters/M1_Day7.pdf) 
+* [Night 7: Principal Components Analysis and Eigenfaces](Chapters/M1_Night7.pdf) 
+* [Day 8: Eigenface Synthesis and Project Kick-Off](Chapters/M1_Day8.pdf) 
+* [Night 8: Eigenfaces Paper and Project Ideation](Chapters/M1_Night8.pdf) 
+* [Day 9: Project Kickoff](Chapters/M1_Day9.pdf)
+* [Project: The Context and Consequences of Feature Recognition,
+Detection, and Classification](Chapters/M1_Project.pdf) 
 
 ## Conclusion and Learning More
 
