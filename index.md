@@ -1,9 +1,9 @@
 ---
 layout: splash
-title: "A Face in the Crowd: TODO"
+title: "A Face in the Crowd: A Contextualized, Integrated, Intro to Linear Algebra"
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.4"
+  overlay_color: "#429AD9"
+  overlay_filter: "0.2"
   overlay_image: website_graphics/olin_logo.jpg
 feature_row:
   - image_path: https://img.youtube.com/vi/MFL4gd2IMm8/0.jpg
