@@ -1,4 +1,5 @@
 ---
 title: "Sample MATLAB Code for A Face in the Crowd"
 ---
-TODO
+
+* [Walkthrough of Creating a Smile Detector](SmileDetectorWalkthrough) (Day 6)
