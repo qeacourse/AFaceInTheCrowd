@@ -1,5 +1,6 @@
 ---
 title: "Sample MATLAB Code for A Face in the Crowd"
+toc: false
 ---
 
 * [Walkthrough of Creating a Smile Detector](SmileDetectorWalkthrough) (Day 6)
