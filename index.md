@@ -2,7 +2,7 @@
 layout: splash
 title: "A Face in the Crowd: A Contextualized, Integrated, Intro to Linear Algebra"
 header:
-  overlay_color: "#419AD9"
+  overlay_color: "#2F72A2"
   overlay_filter: "0.0"
   overlay_image: website_graphics/olin_logo.jpg
 feature_row:
