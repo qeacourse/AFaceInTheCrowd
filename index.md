@@ -120,6 +120,7 @@ Quantitative Engineering Analysis (QEA) is an interdisciplinary, integrated, cou
 
 The module "A Face in the Crowd" is a deep dive into the linear algebra and its myriad applications.  The module builds towards the creation of algorithms for face processing and recognition, but along the way many other applications of the powerful ideas in linear algebra are shown.  We have found that this approach to teaching linear algebra gives a high degree of intuition and understanding of the most important concepts while keeping "turning the crank" (e.g., doing Gaussian elimination by hand) to a minimum.
 
+Despite the fact that the module is successful at Olin, we realize that everyone's institutional context is different. To connect with folks at Olin College to learn more about this module or determine how you might build off of this at your own institution, e-mail <a href="mailto:Collaboratory@olin.edu">Collaboratory@olin.edu</a> to start the conversation.
 ### Other Documents on QEA
 
 * S. Govindasamy, R.J. Christianson, J. Geddes, C. Lee, S. Michalka, P. Ruvolo, M.H. Somerville, A.C. Strong: [A Contextualized, Experiential Learning Approach to Quantitative Engineering Analysis](https://ieeexplore.ieee.org/document/8658526), FIE 2018.
