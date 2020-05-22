@@ -4,7 +4,6 @@ title: "A Face in the Crowd: A Contextualized, Integrated, Intro to Linear Algeb
 header:
   overlay_color: "#009BDF"
   overlay_filter: "0.0"
-  overlay_image: website_graphics/olin_logo.jpg
 feature_row:
   - image_path: https://img.youtube.com/vi/MFL4gd2IMm8/0.jpg
     alt: "A thumbnail image for a video.  The text QEA Olin College of Engineering appears on a textured blue background"
