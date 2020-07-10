@@ -85,7 +85,7 @@ Detection, and Classification](Chapters/M1_Project.pdf)"
 
 The module "A Face in the Crowd" is the opening module in the 12-credit, 3-semester QEA sequence.  The module introduces the major ideas in linear algebra with a focus on intuition building and application in an effort to build deep understanding.  The module is organized around the engineering challenging of building a facial recognition systems.  Rather than purely focus on the technical components of this challenge, students read about the societal issues surrounding the technology (e.g., algorithmic bias).  Along the way students also see applications of linear algebra applied to different domains (e.g., neuroscience).
 
-The full course "textbook" can be found using this link [AFaceInTheCrowdSpring2020.pdf](FullBookAndSourceLatex/AFaceInTheCrowdSpring2020.pdf).  Source files for this website and the assignments themselves can be found at [https://github.com/qeacourse/AFaceInTheCrowd](https://github.com/qeacourse/AFaceInTheCrowd).
+The full course "textbook" can be found using this link [AFaceInTheCrowdSpring2020.pdf](FullBookAndSourceLaTeX/AFaceInTheCrowdSpring2020.pdf).  Source files for this website and the assignments themselves can be found at [https://github.com/qeacourse/AFaceInTheCrowd](https://github.com/qeacourse/AFaceInTheCrowd).
 
 {% include feature_row %}
 
