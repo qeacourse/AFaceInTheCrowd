@@ -56,7 +56,7 @@ feature_row_linalg_basics:
 feature_row_eigenthings_and_applications_of_linalg:
   - image_path: website_graphics/covariancedirections.png
     alt: "A 3D scatter plot showing the relationship between the temperature in 3 cities along with the principal directions of variance shown as vectos."
-    excerpt: "Next, students take the basic properties of matrices and vectors they have learned and learn key concepts of Eigenvalues and Eigenvectors.  Our presentation of these important concepts is heavy on visualization and intuition-building.  We also provide several compelling applications of these concepts to help students understand the power and utility of the theory they are learning.
+    excerpt: "Next, students build on the basic properties of matrices and vectors and learn key concepts of Eigenvalues and Eigenvectors.  Our presentation of these important concepts is heavy on visualization and intuition-building.  We also provide several applications of these concepts to help students understand the power and utility of the math they are learning.
 
     ### Schedule and Supporting Documents
 
@@ -70,11 +70,11 @@ feature_row_eigenthings_and_applications_of_linalg:
 feature_matrix_decomposition_and_project:
   - image_path: website_graphics/eigface1.jpg
     alt: "An image of an Eigenface computed using principal components analysis"
-    excerpt: "Students learn about several algorithms for matrix decomposition: Eigenvalue Decomposition, Singular Value Decomposition, and Principal Components Analysis. The module culminates with a substantial project in which students build algorithms for facial recognition and processing while seriously considering the implications of their work for potential users and society in general.
+    excerpt: "Students learn about several algorithms for matrix decomposition: Eigen Value Decomposition, Singular Value Decomposition, and Principal Components Analysis. The module culminates with a substantial project in which students build algorithms for facial recognition and processing while seriously considering the implications of their work for potential users and society in general.
 
     ### Schedule and Supporting Documents
 
-* [Day 7: Eigenvalue Decomposition and Principal Components Analysis](Chapters/M1_Day7.pdf)\n 
+* [Day 7: Eigen Value Decomposition and Principal Components Analysis](Chapters/M1_Day7.pdf)\n 
 * [Night 7: Principal Components Analysis and Eigenfaces](Chapters/M1_Night7.pdf)\n 
 * [Day 8: Eigenface Synthesis and Project Kick-Off](Chapters/M1_Day8.pdf)\n 
 * [Night 8: Eigenfaces Paper and Project Ideation](Chapters/M1_Night8.pdf)\n 
@@ -83,7 +83,7 @@ feature_matrix_decomposition_and_project:
 Detection, and Classification](Chapters/M1_Project.pdf)" 
 ---
 
-The module "A Face in the Crowd" is the opening module in the 12-credit, 3-semester QEA sequence.  The module introduces the major ideas in linear algebra with a focus on intuition building and application in an effort to build deep understanding.  The module is organized around the engineering challenging of building a facial recognition systems.  Rather than purely focus on the technical components of this challenge, students read about the societal issues surrounding the technology (e.g., algorithmic bias).  Along the way students also see applications of linear algebra applied to different domains (e.g., neuroscience).
+The module "A Face in the Crowd" is the opening module in the 12-credit, 3-semester QEA sequence.  The module introduces the major ideas in linear algebra with a focus on intuition building and application in an effort to build deep understanding.  The module is organized around the engineering challenging of building a facial recognition system.  Rather than purely focus on the technical components of this challenge, students read about the societal issues surrounding the technology (e.g., algorithmic bias).  Along the way students also see applications of linear algebra applied to different domains (e.g., neuroscience).
 
 The full course "textbook" can be found using this link [AFaceInTheCrowdSpring2020.pdf](FullBookAndSourceLaTeX/AFaceInTheCrowdSpring2020.pdf).  Source files for this website and the assignments themselves can be found at [https://github.com/qeacourse/AFaceInTheCrowd](https://github.com/qeacourse/AFaceInTheCrowd).
 
@@ -118,7 +118,7 @@ Quantitative Engineering Analysis (QEA) is an interdisciplinary, integrated, cou
 
 ## Conclusion and Learning More
 
-The module "A Face in the Crowd" is a deep dive into the linear algebra and its myriad applications.  The module builds towards the creation of algorithms for face processing and recognition, but along the way many other applications of the powerful ideas in linear algebra are shown.  We have found that this approach to teaching linear algebra gives a high degree of intuition and understanding of the most important concepts while keeping "turning the crank" (e.g., doing Gaussian elimination by hand) to a minimum.
+The module "A Face in the Crowd" is a deep dive into the linear algebra and its myriad applications.  The module builds towards the creation of algorithms for face processing and recognition, but along the way many other applications of the powerful ideas in linear algebra are shown.  We have found that this approach to teaching linear algebra gives a high degree of intuition and understanding of the most important concepts while keeping "turning the crank" (e.g., doing repetitive calculations by hand) to a minimum.
 
 Despite the fact that the module is successful at Olin, we realize that everyone's institutional context is different. To connect with folks at Olin College to learn more about this module or determine how you might build off of this at your own institution, e-mail <a href="mailto:Collaboratory@olin.edu">Collaboratory@olin.edu</a> to start the conversation.
 ### Other Documents on QEA
