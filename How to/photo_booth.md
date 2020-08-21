@@ -2,7 +2,7 @@
 title: "Instructions on Collecting a Dataset for Facial Recognition"
 ---
 
-A major component of the "A Face inthe Crowd" module is creating a facial recognition system using the Eigenfaces algorithm.  This challenge serves as an integration point for almost all of the fundamental linear algebra concepts convered in the module.  We have found that students enjoy using a dataset composed of images of their peers to train and test with.  This document will walk you through how to easily create such a dataset.  The provided pipeline will give you a ``.mat`` file with labeled, face-cropped images of each student's face.
+UPDATE A major component of the "A Face inthe Crowd" module is creating a facial recognition system using the Eigenfaces algorithm.  This challenge serves as an integration point for almost all of the fundamental linear algebra concepts convered in the module.  We have found that students enjoy using a dataset composed of images of their peers to train and test with.  This document will walk you through how to easily create such a dataset.  The provided pipeline will give you a ``.mat`` file with labeled, face-cropped images of each student's face.
 
 ***Note regarding sensitivity***
 
