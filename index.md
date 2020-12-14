@@ -9,7 +9,7 @@ feature_row:
     alt: "A thumbnail image for a video.  The text QEA Olin College of Engineering appears on a textured blue background"
     title: "Key Features of QEA"
     excerpt: "QEA is a highly interdisciplinary, integrated course for teaching technical content."
-    url: "#course-philosophy"
+    url: "https://qeacourse.github.io"
     btn_label: "More details about QEA"
     btn_class: "btn--primary" 
   - image_path: website_graphics/faces_collage.png
