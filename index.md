@@ -5,13 +5,13 @@ header:
   overlay_color: "#009BDF"
   overlay_filter: "0.0"
 feature_row:
-  - image_path: https://img.youtube.com/vi/MFL4gd2IMm8/0.jpg
+<!--  - image_path: https://img.youtube.com/vi/MFL4gd2IMm8/0.jpg
     alt: "A thumbnail image for a video.  The text QEA Olin College of Engineering appears on a textured blue background"
     title: "Key Features of QEA"
     excerpt: "QEA is a highly interdisciplinary, integrated course for teaching technical content."
     url: "#course-philosophy"
     btn_label: "More details about QEA"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary" -->
   - image_path: website_graphics/faces_collage.png
     alt: "A 5 by 5 grid of face images with labels of whether each of them are smiling."
     title: "Computational Platform"
