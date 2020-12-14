@@ -91,15 +91,6 @@ The full course "textbook" can be found using this link [AFaceInTheCrowdSpring20
 
 *Inspired to learn more?  E-mail <a href="mailto:Collaboratory@olin.edu">Collaboratory@olin.edu</a>.*
 
-
- ## <a name="course-philosophy"/> QEA in a Nutshell
-
-Quantitative Engineering Analysis (QEA) is an interdisciplinary, integrated, course for students to become proficient in learning new technical content and successfully completing projects that have a significant analytical component to them.  This video summarizes some of the rationale and specific pedagogy behind the course.
-
-<p align="center">
- <iframe src="https://www.youtube.com/embed/MFL4gd2IMm8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p> 
-
 ## <a name="supporting-resources"/> Supporting Documentation and Code
 
 {% include feature_row id="feature_row_computational_platform" type="left" %}
