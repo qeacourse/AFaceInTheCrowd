@@ -5,13 +5,13 @@ header:
   overlay_color: "#009BDF"
   overlay_filter: "0.0"
 feature_row:
-<!--  - image_path: https://img.youtube.com/vi/MFL4gd2IMm8/0.jpg
+  - image_path: https://img.youtube.com/vi/MFL4gd2IMm8/0.jpg
     alt: "A thumbnail image for a video.  The text QEA Olin College of Engineering appears on a textured blue background"
     title: "Key Features of QEA"
     excerpt: "QEA is a highly interdisciplinary, integrated course for teaching technical content."
     url: "#course-philosophy"
     btn_label: "More details about QEA"
-    btn_class: "btn--primary" -->
+    btn_class: "btn--primary" 
   - image_path: website_graphics/faces_collage.png
     alt: "A 5 by 5 grid of face images with labels of whether each of them are smiling."
     title: "Computational Platform"
@@ -92,13 +92,13 @@ The full course "textbook" can be found using this link [AFaceInTheCrowdSpring20
 *Inspired to learn more?  E-mail <a href="mailto:Collaboratory@olin.edu">Collaboratory@olin.edu</a>.*
 
 
-## <a name="course-philosophy"/> QEA in a Nutshell
+<!-- ## <a name="course-philosophy"/> QEA in a Nutshell
 
-Quantitative Engineering Analysis (QEA) is an interdisciplinary, integrated, course for students to become proficient in learning new technical content and successfully completing projects that have a significant analytical component to them.  This video summarizes some of the rationale and specific pedagogy behind the course.
+<!--Quantitative Engineering Analysis (QEA) is an interdisciplinary, integrated, course for students to become proficient in learning new technical content and successfully completing projects that have a significant analytical component to them.  This video summarizes some of the rationale and specific pedagogy behind the course.
 
-<p align="center">
+<!--<p align="center">
  <iframe src="https://www.youtube.com/embed/MFL4gd2IMm8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+</p> -->
 
 ## <a name="supporting-resources"/> Supporting Documentation and Code
 
